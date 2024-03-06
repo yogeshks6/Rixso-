@@ -262,6 +262,7 @@ nav {
 .section-3-boxes {
     margin: 15px;
     line-height: 2;
+    cursor: pointer;
     width: 26%;
     background-color: var(--black);
     border-radius: 0.5rem;
@@ -516,6 +517,11 @@ nav {
     color: var(--white);
     line-height: 2.3;
     font-size: 18px;
+    transition: all .5s;
+}
+.section-6-2-box span:hover{
+    color: #407DA0;
+    cursor: pointer;
 }
 
 .section-6-2-box p {
